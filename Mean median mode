@@ -1,0 +1,7 @@
+age<-c(12,13,14,15,15,16)
+mean_value<-mean(age)
+median_value<-median(age)
+mode_value<-as.numeric(names(sort(table(age),decreasing = TRUE)[1]))
+print(mean_value)
+print(median_value)
+print(mode_value)
